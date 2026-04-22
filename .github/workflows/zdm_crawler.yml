@@ -1,8 +1,8 @@
 name: zdm_crawler
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"  # 这里的 0 * * * * 代表每小时的 0分 触发一次
+  #schedule:
+    #- cron: "*/15 * * * *"  # 这里的 0 * * * * 代表每小时的 0分 触发一次
   workflow_dispatch:
     inputs:
       should_commit:
